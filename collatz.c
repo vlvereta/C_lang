@@ -3,11 +3,11 @@
 
 int 	collatz(int n);
 
-int		main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
 	if (argc == 2)
 	{
-		int	n = atoi(argv[1]);
+		int n = atoi(argv[1]);
 		if (n < 1 || n > 1000)
 		{
 			printf("Please, type the positive integer up to 1000!\n");
